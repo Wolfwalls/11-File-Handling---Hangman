@@ -24,7 +24,7 @@ def start_game(start):
                 log2 = json.load(file2)
                 print(json.dumps(log, indent=4))
                 print(json.dumps(log2, indent=4))
-                print(log2["stages"][6])
+                print(log2["stages"][2])
                 
                 # print(log["languages"][random.randint(1,7)])
                 strikes = 0
