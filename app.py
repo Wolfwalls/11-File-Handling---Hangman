@@ -10,6 +10,7 @@ def main():
           start_game(start)
      else:
           print("ok")
+          exit()
      
 
 
@@ -51,6 +52,7 @@ def start_game(start):
                         main()
                     else:
                         print("that is wrong")
+                        main()
                 else:
                     print("incorrect thats one strike.")
                  
